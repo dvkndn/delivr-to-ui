@@ -1,0 +1,32 @@
+.button-round {
+  $size: 40px;
+
+  width: $size; height: $size;
+  border-radius: $size;
+  box-shadow: $color-border 0 0 0 2px inset;
+
+  color: $color-text-light;
+
+  cursor: pointer;
+
+  // elements
+
+  &__icon {
+    display: block;
+  }
+
+  // modifiers
+  
+  $small-size: 20px;
+  &--small {
+    width: $small-size; height: $small-size;
+  }
+  &--small &__icon {
+    font-size: $small-size;
+  }
+  &--icon-only {
+    box-shadow: none;
+    background-color: white;
+  }
+
+}

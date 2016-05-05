@@ -1,0 +1,23 @@
+.object {
+  background: white;
+  box-shadow: $color-border 0 1px 0 0 inset,
+              $color-border 0 -1px 0 0 inset;
+
+  padding-left: $padding-left;
+
+  position: relative;
+
+  // elements
+
+  &__aside {
+    position: absolute;
+    top: 0; left: 0;
+
+    width: $padding-left;
+    height: 100%;
+  }
+
+  &__main {
+
+  }
+}

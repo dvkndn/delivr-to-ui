@@ -1,0 +1,16 @@
+.image-group {
+  display: flex;
+
+  width: calc(100% + #{$padding-left} + #{$padding-default});
+  overflow: scroll;
+
+  margin-left: -$padding-left;
+  padding-left: $padding-left;
+
+  &__child {
+    flex: $flex-fix;
+    &:not(:last-child) {
+      margin-right: 4px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.activity {
+
+  // Elements
+
+  &__title {
+    margin-bottom: 2px;
+    color: $color-text-light;
+  }
+  &__author {
+    font-weight: $font-weight-medium;
+    color: $color-text;
+  }
+
+  // Modifiers
+
+  &--compact &__title {
+    margin-bottom: 0px;
+  }
+}

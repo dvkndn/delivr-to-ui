@@ -1,0 +1,7 @@
+.input-place {
+  display: flex;
+
+  &__select {
+    flex: $flex-auto;
+  }
+}

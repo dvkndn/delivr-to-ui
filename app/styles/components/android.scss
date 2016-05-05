@@ -1,0 +1,13 @@
+.android {
+  width: $android-width;
+  height: $android-height;
+
+  background-color: $color-text;
+
+  &__screen {
+    height: $android-height -
+            $android-status-height -
+            $android-navigation-height;
+    overflow: hidden;
+  }
+}

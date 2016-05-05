@@ -1,0 +1,17 @@
+.grid {
+  display: flex;
+
+  &__child {
+    flex: $flex-fix;
+  }
+
+  $grid-large-padding: 80px;
+  &--large {
+    padding: $grid-large-padding;
+    margin-left: -$grid-large-padding/2;
+    margin-right: -$grid-large-padding/2;
+  }
+  &--large &__child {
+    margin: 0 $grid-large-padding/2;
+  }
+}

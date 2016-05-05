@@ -1,0 +1,9 @@
+.info-list {
+  &__child:not(:last-child) {
+    margin-bottom: 4px;
+  }
+
+  &--compact &__child:not(:last-child) {
+    margin-bottom: 2px;
+  }
+}

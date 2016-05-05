@@ -1,0 +1,26 @@
+.example {
+  &__title {
+    padding: 14px $padding-default 5px;
+
+    color: $color-text-light;
+    font-weight: $font-weight-medium;
+    font-size: $font-size-xsmall;
+    text-transform: uppercase;
+  }
+
+  &__description {
+
+  }
+
+  &__child {
+    @include list-item;
+    &:not(:last-child) {
+      margin-bottom: -1px;
+    }
+  }
+
+  &--full-width &__child {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

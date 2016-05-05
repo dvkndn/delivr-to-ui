@@ -1,0 +1,7 @@
+.form {
+  &__fieldset {
+    &:not(:last-child) {
+      margin-bottom: $padding-default/2
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "inu",
+  "private": true,
+  "dependencies": {
+    "react": "~0.14.6",
+    "lodash": "~4.0.0",
+    "moment": "~2.11.1",
+    "money": "money.js#^0.1.3",
+    "accounting": "accounting.js#^0.4.1",
+    "autosize": "^3.0.15"
+  },
+  "devDependencies": {
+    "chai": "~3.4.2",
+    "mocha": "~2.3.4"
+  }
+}

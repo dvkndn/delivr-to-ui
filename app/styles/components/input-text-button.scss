@@ -1,0 +1,14 @@
+.input-text-button {
+  display: flex;
+
+  &__text {
+    flex: $flex-auto;
+    display: flex;
+  }
+
+  &__button {
+    flex: $flex-fix;
+    margin: -$padding-default;
+    margin-left: 0;
+  }
+}

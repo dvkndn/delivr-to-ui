@@ -1,0 +1,44 @@
+$color-text:          #444659;
+$color-text-dark:     #73748A;
+$color-text-light:    #9B9CB0;
+$color-hint:          #C6C7D2;
+$color-border:        #E9EBF0;
+$color-primary:       #2196F3;
+$color-positive:      $color-primary;
+$color-negative:      #FF5252;
+$color-shadow:        rgba($color-text, 0.26);
+$color-background:    #F7F8FA;
+
+$padding-small:       8px;
+$padding-default:     16px;
+$padding-left:        72px;
+
+$font-size-xsmall:    11px;
+$font-size-small:     12px;
+$font-size-normal:    14px;
+$font-size-large:     16px;
+$font-size-xlarge:    20px;
+
+$font-weight-regular: 400;
+$font-weight-medium:  500;
+
+$flex-auto:           1 0 0;
+$flex-fix:            0 0 auto;
+
+$border-default:      solid 1px $color-border;
+
+$size-avatar:         40px;
+$size-header:         56px;
+
+$z-overlay:           20;
+$z-header:            10;
+
+$box-shadow-border-top:     $color-border 0 1px 0 0 inset;
+$box-shadow-border-bottom:  $color-border 0 -1px 0 0 inset;
+$box-shadow-border:         ($box-shadow-border-top,
+                            $box-shadow-border-bottom);
+
+$android-width:             360px;
+$android-height:            640px;
+$android-status-height:     24px;
+$android-navigation-height: 48px;

@@ -1,0 +1,40 @@
+doctype html
+html(lang='')
+  head
+    meta(charset='utf-8')
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title inu
+    link(rel='apple-touch-icon', href='apple-touch-icon.png')
+    // Place favicon.ico in the root directory
+    
+    // build:css styles/vendor.css
+    // bower:css
+    // endbower
+    // endbuild
+    
+    //- link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto:400,500,700')
+    //- link(rel='stylesheet', href='https://fonts.googleapis.com/icon?family=Material+Icons' )
+    
+    // build:css styles/main.css
+    link(rel='stylesheet', href='styles/main.css')
+    // endbuild
+    
+  body
+    block content
+    
+    // build:js scripts/vendor.js
+    // bower:js
+    script(src='/bower_components/react/react.js')
+    script(src='/bower_components/react/react-dom.js')
+    script(src='/bower_components/lodash/lodash.js')
+    script(src='/bower_components/moment/moment.js')
+    script(src='/bower_components/autosize/dist/autosize.js')
+    // endbower
+    script(src='/bower_components/accounting/accounting.js')
+    script(src='/bower_components/money/money.js')
+    // endbuild
+    
+    // build:js scripts/main.js
+    script(src='scripts/main.js')
+    // endbuild

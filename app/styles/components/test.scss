@@ -1,0 +1,17 @@
+.test {
+  width: 360px;
+  height: 72px;
+  background-color: red;
+
+  overflow: hidden;
+
+  &__body {
+    overflow: scroll;
+    background-color: blue;
+  }
+
+  &__long {
+    width: 720px;
+    // background-color: blue;
+  }
+}

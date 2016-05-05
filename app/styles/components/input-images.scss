@@ -1,0 +1,14 @@
+.input-images {
+  display: flex;
+  align-items: center;
+
+  line-height: 1;
+
+  &__html-input {
+    display: none;
+  }
+
+  &__list + &__button {
+    margin-left: 16px;
+  }
+}

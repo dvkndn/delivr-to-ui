@@ -1,0 +1,14 @@
+.button-group {
+  display: flex;
+  &__child {
+    &:nth-child(1) {
+      flex: 0 0 50%;
+    }
+    &:nth-child(2) {
+      flex: 0 1 50%;
+    }
+    &:nth-child(3) {
+      flex: 0 0 auto;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.android-status {
+  height: $android-status-height;
+  color: white;
+  background-color: $color-text;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding: 0 $padding-default/2;
+
+  &__icon {
+    font-size: 16px;
+    margin-right: 8px;
+
+    // safari fix
+    // explicit declared
+    width: 16px;
+  }
+
+  &__time {
+    font-size: 13px;
+  }
+}

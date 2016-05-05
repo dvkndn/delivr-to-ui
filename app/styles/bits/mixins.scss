@@ -1,0 +1,10 @@
+@mixin list-item($no-padding: false) {
+  background-color: white;
+  box-shadow: $color-border 0 1px 0 0 inset,
+              $color-border 0 -1px 0 0 inset;
+  
+  @if not $no-padding {
+    padding-left: $padding-left;
+    padding-right: $padding-default;
+  }
+}

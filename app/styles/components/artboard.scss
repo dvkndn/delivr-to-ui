@@ -1,0 +1,15 @@
+.artboard {
+  position: relative;
+
+  // elements
+
+  &__title {
+    position: absolute;
+    bottom: calc(100% + 4px);
+    left: 4px;
+
+    color: $color-text-light;
+    font-weight: $font-weight-regular;
+    font-size: $font-size-small;
+  }
+}

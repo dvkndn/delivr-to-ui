@@ -1,0 +1,58 @@
+* {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+li {
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+textarea,
+select,
+fieldset,
+button,
+input {
+  font: inherit;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+fieldset {
+  min-width: 0;
+}
+
+::placeholder {
+  color: $color-hint;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+textarea {
+  display: block;
+  resize: none;
+}
+
+body {
+  background-color: #F2F2F2;
+  font-family: "Roboto", sans-serif;
+  font-size: $font-size-normal;
+  -webkit-font-smoothing: antialiased;
+  color: $color-text;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}

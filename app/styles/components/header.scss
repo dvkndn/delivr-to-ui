@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+
+  width: 100%; height: $size-header;
+  background-color: $color-text;
+
+  color: white;
+  font-size: $font-size-xlarge;
+  font-weight: $font-weight-medium;
+  line-height: $size-header;
+
+  box-shadow: $color-shadow 0 0 4px;
+
+  &__close-button,
+  &__action-button {
+    flex: $flex-fix;
+  }
+
+  &__close-button {
+    margin-right: $padding-default;
+  }
+
+  &__title {
+    flex: $flex-auto;
+  }
+
+  &--highlight {
+    background-color: $color-primary;
+  }
+}

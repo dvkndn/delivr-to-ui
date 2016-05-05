@@ -1,0 +1,12 @@
+.input-price {
+  display: flex;
+
+  &__text {
+    flex: $flex-auto;
+  }
+
+  &__info {
+    color: $color-text-light;
+    flex: $flex-fix;
+  }
+}

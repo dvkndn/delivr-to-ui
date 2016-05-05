@@ -1,0 +1,67 @@
+// Warning: not support "__info" atm. Button is static object.
+
+.button {
+  color: $color-text-light;
+  font-size: $font-size-normal;
+  line-height: 48px;
+
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: $font-weight-medium;
+
+  min-width: 48px;
+
+  vertical-align: top;
+
+  cursor: pointer;
+
+  // elements
+
+  > * {
+    line-height: 48px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 2px;
+  }
+
+  &__icon {
+    font-size: 20px;
+
+    // explicit declared for safari
+    width: 20px;
+  }
+  &__text {
+  }
+  &__info {
+    color: $color-text-light;
+  }
+
+  // modifiers
+
+  &--primary,
+  &--positive {
+    color: $color-primary;
+  }
+  &--negative {
+    color: $color-negative;
+  }
+
+  &--icon-only {
+    text-align: center;
+  }
+  &--icon-only &__text {
+    display: none;
+  }
+
+  &--large {
+    line-height: 56px;
+    min-width: 56px;
+  }
+  &--large > * {
+    line-height: 56px;
+  }
+
+  &--white {
+    color: white;
+  }
+}

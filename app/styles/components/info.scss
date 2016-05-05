@@ -1,0 +1,27 @@
+.info {
+  font-size: 14px;
+  line-height: 20px;
+
+  display: flex;
+
+  &__label,
+  &__value,
+  &__sub {
+    display: block;
+  }
+
+  &__label {
+    color: $color-text-light;
+    width: $padding-left;
+    flex: $flex-fix;
+  }
+
+  &__value {
+    flex: $flex-auto;
+  }
+
+  &__sub {
+    color: $color-text-light;
+    flex: $flex-fix;
+  }
+}

@@ -1,0 +1,9 @@
+.input-images-list {
+  display: flex;
+
+  &__child {
+    &:not(:last-child) {
+      margin-right: 4px;
+    }
+  }
+}

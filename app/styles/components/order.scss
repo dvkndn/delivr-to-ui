@@ -1,0 +1,29 @@
+.order {
+
+  &__body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__description {
+    margin-bottom: 14px;
+  }
+
+  &__photos {
+    margin-bottom: 14px;
+  }
+
+  &__info {
+    margin-bottom: 10px;
+  }
+}
+
+.order-description {
+  &__author,
+  &__reward {
+    font-weight: $font-weight-medium;
+  }
+  &__reward {
+    color: $color-primary;
+  }
+}
